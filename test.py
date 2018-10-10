@@ -13,7 +13,7 @@
 	the terms of "32-bit" and "64-bit" are commonly seen in system requirements.
 	the 64-bit version of windows handles large amount of data compared to 32-bit processor
 	the 32-bit processor can process 32 digits at a time whereas 64-bit handle 64digit
-
+	we have maximum memory space access 64bit
 4.git:
 
     git is a file transfer.
@@ -29,76 +29,113 @@ version:
 LOW LEVEL LANGUAGE:
 	low level languages are machine dependent programming languages such as binary and assembly language.
 	since computer only understand binary language that vmachines instructions in the form of 0's and 1's.
+Eg:
+	c,c++
 HIGH LEVEL:
 	a high level languages is an advanced computer programming that abstracts details of the undelying hardware.the machine independent programming languages vwhich  are  easy to write,read,edit and understand
 eg:
-  java,.net,pascal,cobol,c++,c,c#
+  java,.net,pascal,cobol,
 	
 
 7.object:
-	object,in C#, is an instance of a class that is created dynamically.
-	object is also a keyword that is an alias for the predefined.
-	 an entity or thing(in normal language) whichhas it's own properties and methods.
+python is a great programming language that supports oop.you will use it to define a class with attributes and methods.python offers a number of benefits compared to other programming language.
+object oriented programming is based on the imperative programming paradigm.
 Eg:
-	you are an object,your properties are name,age,genter.your methods are walking,breathing,talking and etc..
-Object oriented programming:
-		object oriented programming is a technique defined in OOP language where we view everything(any real life thinhs from pen,pencil,remote,car,..etc)
-
-8.Linux distribution name:
+	class employee
+	private string name;
+	public string get name()
+	return name;
 	
-	 * ubuntu
-	* fedora
-	* linux mint
-	* debian
-	* open SUSE
+8.Linux distribution name:
+	* Fedora release 28 (Twenty Eight)
 kernal version:
 	Linux 4.16.3-30-amdX86_64
-where,
-	1.linux -kernal name
-	2.4.16.3-30-kernal version
-	3.x86_64-machine hardware name	
-sample output:
-		*Linux version 4.16.3-301.fc28.x86_64 (mockbuild@bkernel02.phx2.fedoraproject.org) (gcc version 8.0.1 20180324 (Red Hat 8.0.1-0.20) (GCC)) #1 SMP Mon Apr 23 21:59:58 UTC 
+	cat /etc/os-releaseimport platform
+import sys
 
-10.
+def linux_distribution():
+  try:
+    return platform.linux_distribution()
+  except:
+    return "N/A"
+
+print("""Python version: %s
+dist: %s
+linux_distribution: %s
+system: %s
+machine: %s
+platform: %s
+uname: %s
+version: %s
+mac_ver: %s
+""" % (
+sys.version.split('\n'),
+str(platform.dist()),
+linux_distribution(),
+platform.system(),
+platform.machine(),
+platform.platform(),
+platform.uname(),
+platform.version(),
+platform.mac_ver(),
+))
+output:
+	Python version: ['3.6.5 (default, Mar 29 2018, 18:20:46) ', '[GCC 8.0.1 20180317 (Red Hat 8.0.1-0.19)]']
+dist: ('fedora', '28', 'Twenty Eight')
+linux_distribution: ('Fedora', '28', 'Twenty Eight')
+system: Linux
+machine: x86_64
+platform: Linux-4.16.3-301.fc28.x86_64-x86_64-with-fedora-28-Twenty_Eight
+uname: uname_result(system='Linux', node='localhost.localdomain', release='4.16.3-301.fc28.x86_64', version='#1 SMP Mon Apr 23 21:59:58 UTC 2018', machine='x86_64', processor='x86_64')
+version: #1 SMP Mon Apr 23 21:59:58 UTC 2018
+mac_ver: ('', ('', '', ''), '')
+
+
+
+9."""assign a class"""
+class adm():
 	
-	class Myclass:
-	"This is my second class"
-	a = 10
-	def func(self):
-		print('Hello')
+	""" Create function for adding two number"""
+	def addition(a,b):
+		c = a+b
+		return c
 
-print(Myclass. a)
-print(Myclass. func)
+	""" Create function for adding two number"""
+	def subtraction(a,b):
+		c = a-b
+		return c
 
-my_dict ={"name":"roja", "age":"23"}
-print(my_dict["name"]) 
-print(my_dict.get("age"))
-
-sample output:
-	10
-<unbound method Myclass.func>
-roja
-23
-
-9.def main():
-    for i in range(10):
-        print("I like flower")
-    print("Good bye!")
-
-sample output:
-
-I like flower
-I like flower
-I like flower
-I like flower
-I like flower
-I like flower
-I like flower
-I like flower
-I like flower
-I like flower
-Good bye!
+	""" Create function for adding two number"""
+	def multiply(a,b):
+		c = a*b
+		return c
 
 
-  	
+
+"""assign variable values"""
+a = int(input())
+b = int(input())
+c = int(input())
+
+"""calling functions"""
+
+result={}
+result["addition"] = adm.addition(a,b)
+result["subtraction"] = adm.subtraction(a,b)
+result["mutiply"] = adm.multiply(a,b)
+print("Result is:",result)
+
+10.def frog(): 
+	divi =['jasmine', 'lotus', 'tulip']
+	for c, value in enumerate(divi, 1):
+		print(c, value)
+
+frog()
+output:
+1 jasmine
+2 lotus
+3 tulip
+
+5.Gitub accout and make a repository:
+	github account name:Tansiya-training-prgm
+	user name:Tansiya	  	
