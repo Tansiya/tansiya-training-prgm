@@ -12,14 +12,16 @@ def maths():
 	l= []
 
 """creating for loop function"""
-	for i in range(900, 1000):
+
+for i in range(900, 1000):
 		if (i%7==0) and (i%5!=0):
 			factorial = fact(i)
 			l.append(str(factorial))
-"""return the value l"""
-	return l
 
-"""find k value"""	
+return l
+
+"""find k value"""
+	
 k = maths()
 
 

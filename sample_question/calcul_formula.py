@@ -1,10 +1,11 @@
 """ Usage: Find and calculate the square root value.print the input single or list variable"'""
 
-"""assign a import for all math function"""
+"""assign a import for all maths function"""
 
 import math
 
 """assign a fixed values of C and H"""
+
 c = 50
 h = 30
 
