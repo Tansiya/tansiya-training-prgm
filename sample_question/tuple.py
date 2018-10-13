@@ -2,13 +2,13 @@
 
 values = input()
 
-""" creating for list and tuple"""
+#creating for list and tuple
 
 l =values.split(",")
 
 t =tuple(l)
 
-"""print the l,t"""
+#print the l,t
 
 print(l)
 print(t)
