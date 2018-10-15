@@ -4,5 +4,5 @@
 s = input()
 words = [word for word in s.split(" ")]
 
-#print the sorted words
+#print the alphanumeric word and remove duplicate word
 print(','.join(sorted(list(set(words)))))
