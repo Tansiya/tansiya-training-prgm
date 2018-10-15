@@ -18,7 +18,7 @@ for i in range(900, 1000):
 			factorial = fact(i)
 			l.append(str(factorial))
 
-return l
+			return l
 
 #find k value
 	
