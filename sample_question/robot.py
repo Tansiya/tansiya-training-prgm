@@ -22,6 +22,7 @@ while True:
         pos[1]+=steps
     else:
         pass
+
 #print the nearest integer
 
 print (int(round(math.sqrt(pos[1]**2+pos[0]**2))))
