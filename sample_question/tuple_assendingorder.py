@@ -15,4 +15,4 @@ while True:
 	l.append(tuple(s.split(","))) 
 
 #print the sorted tupleand asendingorder
-print (sorted(l, key = itemgetter (0, 1, 2)))
+print(sorted(l, key = itemgetter (0, 1, 2)))
