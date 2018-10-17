@@ -8,7 +8,18 @@ def printDict():
 	d[2]=2**2
 	d[3]=3**2
 	print(d)
-		
+
+#print dictionary key number square value
+printDict()
+
+
+
+def printDict():
+	d=dict()
+	for i in range(1,21):
+		d[i]=i**2
+	print (d)
+			
 #print dictionary key number square value
 printDict()
 
