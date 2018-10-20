@@ -13,8 +13,6 @@ divi = "Person"
 divi.name = Diviksha
 print"%s name is %s" % (Person.name, divi.name)
 
-#nico.name is the instance parameter
-
 tansi = "Person"
 tansi.name = Tansiya
 #print person.name, nico.name
