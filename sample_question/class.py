@@ -5,16 +5,17 @@ class Person:
 #define the class parameter name
 	name = "Person"
 
-def _init_(self, name = None):
+def_init_(self, name = None):
  # self.name is the instance parameter
         self.name = Name
 
-jeffrey = ("Person", ("Jeffrey"))
-print ("%s name is %s:",% (Person.name, jeffrey.name))
+divi = "Person"
+divi.name = "Diviksha"
+print"%s name is %s" % (Person.name, divi.name)
 
 #nico.name is the instance parameter
 
-nico = Person()
-nico.name = "Nico"
+tansi = "Person"
+tansi.name = "Tansiya"
 #print person.name, nico.name
-print ("%s name is %s:",% (Person.name, nico.name))
+print"%s name is %s" % (Person.name, tansi.name)
