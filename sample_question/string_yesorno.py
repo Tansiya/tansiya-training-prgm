@@ -2,7 +2,7 @@
 
 #put the string input
 
-s== input("Divi157")
+s= input()
 
 #if statement to judge condition
 
