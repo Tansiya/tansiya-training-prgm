@@ -1,0 +1,9 @@
+"""write a program to print the list after removing delete even numbers in [5,6,77,45,22,12,24]"""
+
+#assigned list
+li = [5,6,77,45,22,12,24]
+#removing even numbers in a list
+li = [x for x in li if x%2!=0]
+#print list
+print (li)
+
